@@ -1,0 +1,83 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+/* heading */
+h1 {
+    font-size: 40px;
+}
+
+/* winner tag  */
+.msg {
+    font-size: 9vmin;
+    font-weight: 600;
+    color: rgb(255, 208, 0);
+    height:  50vmin;
+    padding-top: 30vmin;
+}
+
+/* new game button */
+#newgamebut {
+    height: 50px;
+    width: 100px;
+    font-weight: 600;
+    border: 1px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    margin-bottom: 40vmin;
+}
+
+body{
+    background-color: #2D3142;  
+    color: white;
+    text-align: center;
+}
+
+/* contain */
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+/* boxes for games */
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 15px;
+    font-size: 8vmin;
+    font-weight: 500;
+    background-color: white;
+}
+
+/* return button */
+#returnbut {
+    height: 50px;
+    width: 100px;
+    padding: 1rem;
+    font-weight: 800;
+    border: 1px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+}
+#returnbut:hover {
+    background-color: rgb(76, 137, 250);
+    cursor: pointer;
+}
+
+/* hide */
+.hide{
+    display: none;
+}
